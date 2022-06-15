@@ -1,0 +1,14 @@
+,child: BlocConsumer<MovieDBController,StatesMovies>(
+
+
+    listener: (context, state) {},
+     builder: (context,state)
+
+       {
+       final  controller = MovieDBController.getObject(context);
+        return Scaffold();
+
+       ;
+       }
+
+   ))
